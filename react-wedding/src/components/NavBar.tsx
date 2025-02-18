@@ -1,4 +1,4 @@
-import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router";
 
 function NavBar() {
@@ -21,24 +21,12 @@ function NavBar() {
               <Nav.Link as={NavLink} to={"/"}>
                 Home
               </Nav.Link>
-              <Nav.Link as={NavLink} to={"/"}>
-                Countries
+              <Nav.Link as={NavLink} to={"/rsvp"}>
+                RSVP
               </Nav.Link>
-
-              <NavDropdown title="User" id="collapsible-nav-dropdown">
-                <NavDropdown.Item as={NavLink} to={"/"}>
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={NavLink} to={"/"}>
-                  Something
-                </NavDropdown.Item>
-              </NavDropdown>
             </Nav>
             <Nav>
-              <div>
-                <Button color="inherit">Something</Button>
-              </div>
+              <Button color="inherit">Something</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
