@@ -1,14 +1,17 @@
-import save from "../images/hug.png"
+
+import save from "../images/hug.png";
+import Countdown from "../components/Countdown";
 
 function Home() {
+
   return (
     <>
-      <h1>Tom & Gerry</h1>
+      <h1>We're getting married!</h1>
       <div className="home-container">
-      <img className="hugPic"src={save} alt="tom and jerry hugging" />
+        <img className="hugPic" src={save} alt="tom and jerry hugging" />
       </div>
-
-     
+      <Countdown/>
+      ;
     </>
   );
 }
