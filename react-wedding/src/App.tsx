@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import RSVP from './pages/RSVP'
 import NavBar from './components/NavBar';
+import Gallery from './pages/Gallery';
 
 const Root = () => {
   // this route element is the parent of 3 pages, so they all contain the navbar
@@ -27,6 +28,7 @@ function App() {
               <Route element={<Root />}>
                 <Route index element={<Home />} />
                 <Route path="/rsvp" element={<RSVP />} />
+                <Route path="/gallery" element={<Gallery />} />
                 </Route>
             </Routes>
           </BrowserRouter>

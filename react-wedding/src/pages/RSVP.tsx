@@ -2,7 +2,9 @@
 
 function RSVP() {
   return (
-    <div>RSVP page</div>
+    <div>
+      <h1>RSVP page</h1>
+    </div>
   )
 }
 
