@@ -1,0 +1,12 @@
+h1{
+  text-align: center;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hugPic {
+  height: 250px;
+}
