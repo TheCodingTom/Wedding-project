@@ -27,6 +27,9 @@ function NavBar() {
               <Nav.Link as={NavLink} to={"/gallery"}>
                 Gallery
               </Nav.Link>
+              <Nav.Link as={NavLink} to={"/location"}>
+                Location
+              </Nav.Link>
             </Nav>
             <Nav>
               <Button color="inherit">Something</Button>

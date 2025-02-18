@@ -1,9 +1,10 @@
 
 
+
 function RSVP() {
   return (
     <div>
-      <h1>RSVP page</h1>
+  <h1>RSVP</h1>
     </div>
   )
 }
