@@ -1,12 +1,9 @@
-
-
-
 function RSVP() {
   return (
     <div>
-  <h1>RSVP</h1>
+      <h1>RSVP</h1>
     </div>
-  )
+  );
 }
 
-export default RSVP
+export default RSVP;

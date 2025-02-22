@@ -1,4 +1,4 @@
-h1{
+h1 {
   text-align: center;
 }
 
@@ -17,5 +17,23 @@ h1{
 }
 
 .timer {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
+.location-pic-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.location-pic {
+  width: 800px;
+  
+}
+
+/* @media (max-width: 600px) {
+  .location-pic {
+    background-color: black;
+  }
+} */
