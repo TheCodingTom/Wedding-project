@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import RSVP from "./pages/RSVP";
 import NavBar from "./components/NavBar";
 import Gallery from "./pages/Gallery";
-import Location from "./pages/Location";
+import Location from "./pages/Locations";
 
 
 

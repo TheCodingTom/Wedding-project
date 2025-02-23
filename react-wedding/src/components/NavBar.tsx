@@ -30,7 +30,7 @@ function NavBar() {
                 Gallery
               </Nav.Link>
               <Nav.Link as={NavLink} to={"/location"}>
-                Location
+                Locations
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
