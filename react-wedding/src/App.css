@@ -1,5 +1,3 @@
-
-
 h1 {
   text-align: center;
 }
@@ -23,10 +21,6 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
 }
 
-
-
-
-
-
-
-
+.custom-navbar {
+  background-color: #fdbebe !important; 
+}

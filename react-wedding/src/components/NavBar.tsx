@@ -2,14 +2,18 @@ import {Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router";
 
 function NavBar() {
+
+
   return (
     <>
       <Navbar
         collapseOnSelect
         expand="lg"
-        className="bg-body-tertiary"
-        bg="light"
+        className="bg-body-tertiary custom-navbar"
+       
         data-bs-theme="light"
+       
+        
       >
         <Container>
           <Navbar.Brand as={NavLink} to={"/"}>
