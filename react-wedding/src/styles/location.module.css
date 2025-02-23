@@ -1,0 +1,39 @@
+.locationPic {
+  width: 100%;
+}
+
+.gardenPic {
+    width: 100%;
+  }
+
+  .topContainer {
+    text-align: center;
+ 
+  }
+
+  .topContainer p {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+
+  }
+
+  .bottomContainer {
+    text-align: center;
+  }
+
+  .bottomContainer p {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+  }
+
+
+@media (max-width: 600px) {
+    .bottomContainer {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 5px;
+    }
+  }
+
