@@ -21,15 +21,21 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.location-pic-container {
-  display: flex;
-  justify-content: center;
-
+.location-pic {
+  width: 500px;
+  
 }
 
-.location-pic {
-  width: 800px;
+.top-container {
+  display: flex;
+  flex-direction: row;
   
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* @media (max-width: 600px) {
