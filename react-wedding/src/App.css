@@ -7,13 +7,21 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
 }
 
- /* navbar */
- .bg-body-tertiary {
+/* navbar */
+.bg-body-tertiary {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .custom-navbar {
-  background-color: #fdbebe !important; 
+  background-color: #fdbebe !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
 }
 
 
@@ -27,8 +35,3 @@ h1 {
 .circular-gallery:active {
   cursor: grabbing;
 }
-
-
-
-
-

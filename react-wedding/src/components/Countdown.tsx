@@ -50,8 +50,7 @@ const Countdown: React.FC = () => {
 
     return (
         <div style={{ textAlign: "center", margin: "auto" }}>
-            <h3>Countdown until August 30, 2025</h3>
-            <h2 className="timer">{timer}</h2>
+            <h2 className="timer">Countdown: {timer}</h2>
         </div>
     );
 };

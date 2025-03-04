@@ -1,3 +1,27 @@
+.homeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.mainH1 {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: black
+}
+
+.mainP {
+    font-family: "Pacifico", cursive;
+  
+    font-style: normal;
+    font-size: 30px;
+    color:black;
+}
+
 .hugPic {
   height: 250px;
 }
@@ -5,3 +29,9 @@
 .homePicture {
   height: 800px;
 }
+
+@media (max-width: 600px) {
+    .homePicture {
+      height: 500px;
+    }
+  }
