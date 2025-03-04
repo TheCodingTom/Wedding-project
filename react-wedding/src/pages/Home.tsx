@@ -1,42 +1,25 @@
 import hug from "../images/hug.png";
-import beach from "../images/beach.jpeg"
+import beach from "../images/beach.jpeg";
 import { Col, Container, Row } from "react-bootstrap";
 import Countdown from "../components/Countdown";
-
-
-
+import styles from "../styles/home.module.css"
 
 function Home() {
   return (
     <>
-    {/* <Container>
-      <Row>
-        <Col><h1>Ci sposiamo!</h1></Col>
-        <Col><img className="home-pic" src={beach} alt=""/></Col>
-      </Row>
-      <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
-      </Row>
-    </Container> */}
-
-   
-    <h1>Ci sposiamo!
-    </h1>
-      
-      <div className="home-container">
-        <img className="hugPic" src={hug} alt="tom and jerry hugging" />
-      </div>
-
-      <Countdown/>
-{/* 
-      <div>
-        <img src={beach} alt="" style={{width:"500px"}} />
-      </div> */}
+      <Container>
+        <Row>
+          <Col className={styles.homeInfo}>
+            <h1>Ci sposiamo!</h1> <img className={styles.hugPic} src={hug} alt="image of tom and jerry hugging" />
+            <Countdown />
+          </Col>
+          <Col>
+            <div className={styles.pictureContainer}><img className={styles.homePicture} src={beach} alt="picture of tom and geri at the beach" /></div>
+          </Col>
+        </Row>
+      </Container>
 
     
-      
     </>
   );
 }

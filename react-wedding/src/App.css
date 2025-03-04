@@ -2,32 +2,20 @@ h1 {
   text-align: center;
 }
 
-.home-container {
-  display: flex;
-  justify-content: center;
-}
-
-.hugPic {
-  height: 250px;
-}
-
-.iridescence-container {
-  width: 100%;
-  height: 100%;
-}
-
 .timer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+ /* navbar */
+ .bg-body-tertiary {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .custom-navbar {
   background-color: #fdbebe !important; 
 }
 
-.home-pic {
-  height: 800px;
-}
 
 .circular-gallery {
   width: 100%;
@@ -39,3 +27,8 @@ h1 {
 .circular-gallery:active {
   cursor: grabbing;
 }
+
+
+
+
+
