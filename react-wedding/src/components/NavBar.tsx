@@ -36,6 +36,12 @@ function NavBar() {
               <Nav.Link as={NavLink} to={"/location"}>
                 Locations
               </Nav.Link>
+              <Nav.Link as={NavLink} to={"/accomodation"}>
+                Accomodations
+              </Nav.Link>
+              <Nav.Link as={NavLink} to={"/program"}>
+                Program
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

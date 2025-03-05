@@ -4,6 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Countdown from "../components/Countdown";
 import styles from "../styles/home.module.css"
 
+
 function Home() {
   return (
     <>
@@ -22,6 +23,9 @@ function Home() {
           </Col>
         </Row>
       </Container>
+
+  
+
 
     
     </>

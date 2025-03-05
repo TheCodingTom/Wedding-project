@@ -5,6 +5,8 @@ import RSVP from "./pages/RSVP";
 import NavBar from "./components/NavBar";
 import Gallery from "./pages/Gallery";
 import Location from "./pages/Locations";
+import Accomodations from "./pages/Accomodations";
+import Program from "./pages/Program";
 
 
 
@@ -31,6 +33,8 @@ function App() {
               <Route path="/rsvp" element={<RSVP />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/location" element={<Location />} />
+              <Route path="/accomodation" element={<Accomodations />} />
+              <Route path="/program" element={<Program />} />
             </Route>
           </Routes>
         </BrowserRouter>
