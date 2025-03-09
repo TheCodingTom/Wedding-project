@@ -18,7 +18,8 @@ function Home() {
             <p className={styles.mainP}>Hi everyone! As you know, on August 30th, 2025 we'll be celebrating our wedding in Geri's hometown, Ulm. We can't wait to celebrate this day with you!</p>
             <Countdown />
           </Col>
-          <Col>
+          
+          <Col >
             <div className={styles.pictureContainer}><img className={styles.homePicture} src={beach} alt="picture of tom and geri at the beach" /></div>
           </Col>
         </Row>
@@ -33,3 +34,5 @@ function Home() {
 }
 
 export default Home;
+
+
