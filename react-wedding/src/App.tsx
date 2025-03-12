@@ -3,12 +3,11 @@ import "./App.css";
 import Home from "./pages/Home";
 import RSVP from "./pages/RSVP";
 import NavBar from "./components/NavBar";
-import Gallery from "./pages/Gallery";
+import Gallery from "./pages/FakeGallery";
 import Location from "./pages/Locations";
 import Accomodations from "./pages/Accomodations";
 import Program from "./pages/Program";
-
-
+import FakeGallery from "./pages/FakeGallery";
 
 const Root = () => {
   // this route element is the parent of 3 pages, so they all contain the navbar
@@ -24,21 +23,19 @@ const Root = () => {
 function App() {
   return (
     <>
-     
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" />
-            <Route element={<Root />}>
-              <Route index element={<Home />} />
-              <Route path="/rsvp" element={<RSVP />} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/location" element={<Location />} />
-              <Route path="/accomodation" element={<Accomodations />} />
-              <Route path="/program" element={<Program />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" />
+          <Route element={<Root />}>
+            <Route index element={<Home />} />
+            <Route path="/rsvp" element={<RSVP />} />
+            <Route path="/fakegallery" element={<FakeGallery />} />
+            <Route path="/location" element={<Location />} />
+            <Route path="/accomodation" element={<Accomodations />} />
+            <Route path="/program" element={<Program />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

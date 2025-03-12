@@ -1,19 +1,14 @@
-import {Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router";
 
 function NavBar() {
-
-
   return (
     <>
       <Navbar
         collapseOnSelect
         expand="lg"
         className="bg-body-tertiary custom-navbar"
-       
         data-bs-theme="light"
-       
-        
       >
         <Container>
           <Navbar.Brand as={NavLink} to={"/"}>
@@ -21,16 +16,15 @@ function NavBar() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-            </Nav>
+            <Nav className="me-auto"></Nav>
             <Nav>
-            <Nav.Link as={NavLink} to={"/"}>
+              <Nav.Link as={NavLink} to={"/"}>
                 Home
               </Nav.Link>
               <Nav.Link as={NavLink} to={"/rsvp"}>
                 RSVP
               </Nav.Link>
-              <Nav.Link as={NavLink} to={"/gallery"}>
+              <Nav.Link as={NavLink} to={"/fakegallery"}>
                 Gallery
               </Nav.Link>
               <Nav.Link as={NavLink} to={"/location"}>
