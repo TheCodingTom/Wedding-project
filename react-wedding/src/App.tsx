@@ -8,6 +8,7 @@ import Location from "./pages/Locations";
 import Accomodations from "./pages/Accomodations";
 import Program from "./pages/Program";
 import FakeGallery from "./pages/FakeGallery";
+import RealGallery from "./pages/RealGallery";
 
 const Root = () => {
   // this route element is the parent of 3 pages, so they all contain the navbar
@@ -30,6 +31,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/rsvp" element={<RSVP />} />
             <Route path="/fakegallery" element={<FakeGallery />} />
+            <Route path="/gallery" element={<RealGallery />} />
             <Route path="/location" element={<Location />} />
             <Route path="/accomodation" element={<Accomodations />} />
             <Route path="/program" element={<Program />} />
