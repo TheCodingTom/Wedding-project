@@ -32,3 +32,46 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
+
+.language-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+}
+
+.selected-language {
+  cursor: pointer;
+}
+
+.selected-language img {
+  border-radius: 5px; /* Optional: add some border radius to the flag */
+}
+
+.dropdown-menu {
+  top: 100px; /* Adjust based on flag size */
+  right: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-menu div {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu img {
+  margin-right: 8px;
+}

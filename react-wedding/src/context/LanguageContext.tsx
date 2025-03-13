@@ -39,18 +39,53 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
 
 export const LanguageSelector: React.FC = () => {
   const { language, switchLanguage } = useLanguage();
+  const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
+
+  // Toggle dropdown visibility
+  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
+
+  // Handle language switch
+  const handleLanguageChange = (lang: string) => {
+    switchLanguage(lang);
+    setIsDropdownOpen(false); // Close dropdown after selecting a language
+  };
+
+  // Flags based on selected language
+  const flags: Record<"en" | "it" | "de", string> = {
+    en: "https://flagcdn.com/w320/us.png", // USA Flag for English
+    it: "https://flagcdn.com/w320/it.png", // Italy Flag for Italian
+    de: "https://flagcdn.com/w320/de.png", // Germany Flag for German
+  };
 
   return (
     <div className="language-selector">
-      <button onClick={() => switchLanguage("en")} disabled={language === "en"}>
-        EN
-      </button>
-      <button onClick={() => switchLanguage("it")} disabled={language === "it"}>
-        IT
-      </button>
-      <button onClick={() => switchLanguage("de")} disabled={language === "de"}>
-        DE
-      </button>
+      {/* Display the selected language flag */}
+      <div className="selected-language" onClick={toggleDropdown}>
+        <img
+          src={flags[language as "en" | "it" | "de"]}
+          alt={language}
+          width={30}
+          height={20}
+        />
+      </div>
+
+      {/* Dropdown menu for language selection */}
+      {isDropdownOpen && (
+        <div className="dropdown-menu">
+          <div onClick={() => handleLanguageChange("en")}>
+            <img src={flags["en"]} alt="English" width={30} height={20} />
+            English
+          </div>
+          <div onClick={() => handleLanguageChange("it")}>
+            <img src={flags["it"]} alt="Italian" width={30} height={20} />
+            Italiano
+          </div>
+          <div onClick={() => handleLanguageChange("de")}>
+            <img src={flags["de"]} alt="German" width={30} height={20} />
+            Deutsch
+          </div>
+        </div>
+      )}
     </div>
   );
 };

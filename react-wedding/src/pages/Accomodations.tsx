@@ -4,15 +4,15 @@ import { Hotel } from "../types/types";
 import { useLanguage } from "../context/LanguageContext"; // Adjust path as needed
 
 // Define the types for the translations
-interface Translations {
+type Translations = {
   title: string;
   description: string;
   codeInfo: string;
   breakfastInfo: string;
   bookingPeriod: string;
-}
+};
 
-type TranslationLang = "en" | "it" | "de";
+export type TranslationLang = "en" | "it" | "de";
 
 // The main component for accommodations
 const Accomodations: React.FC = () => {
