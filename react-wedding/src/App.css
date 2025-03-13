@@ -23,16 +23,12 @@ h1 {
   color: white;
 }
 
-
-.circular-gallery {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  cursor: grab;
+.nav-link :hover {
+  color: white;
 }
 
-.circular-gallery:active {
-  cursor: grabbing;
+.fake-gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function FakeGallery() {
   return (
-    <div className="container mt-5">
+    <div className="fake-gallery-container mt-5">
       <h1 className="display-4 text-center mb-4">
         I'm sorry, there are no pictures here
       </h1>

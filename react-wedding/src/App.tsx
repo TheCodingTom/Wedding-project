@@ -3,19 +3,18 @@ import "./App.css";
 import Home from "./pages/Home";
 import RSVP from "./pages/RSVP";
 import NavBar from "./components/NavBar";
-import Gallery from "./pages/FakeGallery";
 import Location from "./pages/Locations";
 import Accomodations from "./pages/Accomodations";
 import Program from "./pages/Program";
 import FakeGallery from "./pages/FakeGallery";
 import RealGallery from "./pages/RealGallery";
+import { LanguageProvider, LanguageSelector } from "./context/LanguageContext";
 
 const Root = () => {
-  // this route element is the parent of 3 pages, so they all contain the navbar
   return (
-    // if I want to add a footer, it will go under outlet
     <>
       <NavBar />
+      <LanguageSelector />
       <Outlet />
     </>
   );
@@ -23,7 +22,7 @@ const Root = () => {
 
 function App() {
   return (
-    <>
+    <LanguageProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" />
@@ -38,7 +37,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </LanguageProvider>
   );
 }
 
