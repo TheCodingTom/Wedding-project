@@ -52,9 +52,9 @@ export const LanguageSelector: React.FC = () => {
 
   // Flags based on selected language
   const flags: Record<"en" | "it" | "de", string> = {
-    en: "https://flagcdn.com/w320/us.png", // USA Flag for English
-    it: "https://flagcdn.com/w320/it.png", // Italy Flag for Italian
-    de: "https://flagcdn.com/w320/de.png", // Germany Flag for German
+    en: "https://flagcdn.com/w320/us.png",
+    it: "https://flagcdn.com/w320/it.png",
+    de: "https://flagcdn.com/w320/de.png",
   };
 
   return (
