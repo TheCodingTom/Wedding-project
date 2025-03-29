@@ -9,6 +9,7 @@ import Program from "./pages/Program";
 import FakeGallery from "./pages/FakeGallery";
 import RealGallery from "./pages/RealGallery";
 import { LanguageProvider, LanguageSelector } from "./context/LanguageContext";
+import Arrival from "./pages/Arrival";
 
 const Root = () => {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="/fakegallery" element={<FakeGallery />} />
             <Route path="/gallery" element={<RealGallery />} />
             <Route path="/location" element={<Location />} />
+            <Route path="/arrival" element={<Arrival />} />
             <Route path="/accomodation" element={<Accomodations />} />
             <Route path="/program" element={<Program />} />
           </Route>

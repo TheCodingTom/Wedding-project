@@ -1,9 +1,13 @@
-import React from 'react'
+import gif from "../images/giphy.gif";
 
 function Program() {
   return (
-    <div><h1>This is the program</h1></div>
-  )
+    <div className="program-page">
+      <h1>More details soon...</h1>
+
+      <img src={gif} alt="" />
+    </div>
+  );
 }
 
-export default Program
+export default Program;

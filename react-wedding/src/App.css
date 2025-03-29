@@ -75,3 +75,10 @@ h1 {
 .dropdown-menu img {
   margin-right: 8px;
 }
+
+.program-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
