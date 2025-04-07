@@ -26,20 +26,15 @@
 }
 
 .homePicture {
-  height: 800px;
+  height: 80vh;
 }
 
 .pictureContainer {
-  display: flex;
-  justify-content: flex-end;
-  
- 
+  object-fit: contain;
 }
 
 @media (max-width: 600px) {
   .homePicture {
     height: 550px;
-   
   }
 }
-

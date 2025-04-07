@@ -27,9 +27,7 @@ function NavBar() {
               <Nav.Link as={NavLink} to={"/fakegallery"}>
                 Gallery
               </Nav.Link>
-              <Nav.Link as={NavLink} to={"/location"}>
-                Locations
-              </Nav.Link>
+
               <Nav.Link as={NavLink} to={"/arrival"}>
                 Arrival
               </Nav.Link>

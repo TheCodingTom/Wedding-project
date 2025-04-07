@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import RSVP from "./pages/RSVP";
 import NavBar from "./components/NavBar";
-import Location from "./pages/Locations";
+
 import Accomodations from "./pages/Accomodations";
 import Program from "./pages/Program";
 import FakeGallery from "./pages/FakeGallery";
@@ -32,7 +32,7 @@ function App() {
             <Route path="/rsvp" element={<RSVP />} />
             <Route path="/fakegallery" element={<FakeGallery />} />
             <Route path="/gallery" element={<RealGallery />} />
-            <Route path="/location" element={<Location />} />
+
             <Route path="/arrival" element={<Arrival />} />
             <Route path="/accomodation" element={<Accomodations />} />
             <Route path="/program" element={<Program />} />
