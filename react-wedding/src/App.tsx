@@ -13,11 +13,11 @@ import Arrival from "./pages/Arrival";
 
 const Root = () => {
   return (
-    <>
+    <div style={{ position: "relative" }}>
       <NavBar />
       <LanguageSelector />
       <Outlet />
-    </>
+    </div>
   );
 };
 

@@ -82,3 +82,47 @@ h1 {
   align-items: center;
   gap: 10px;
 }
+
+/* language selector */
+
+.language-selector {
+  position: absolute;
+  top: 4rem;
+  right: 1.5rem;
+  z-index: 999;
+  background: transparent;
+}
+
+.selected-language {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.selected-language:hover {
+  transform: scale(1.1);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  z-index: 1000;
+  font-family: sans-serif;
+}
+
+.dropdown-menu > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dropdown-menu > div:hover {
+  background-color: #f1f1f1;
+}
