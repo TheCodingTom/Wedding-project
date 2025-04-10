@@ -1,9 +1,8 @@
 import React from "react";
 import HotelCard from "../components/HotelCard";
 import { Hotel } from "../types/types";
-import { useLanguage } from "../context/LanguageContext"; // Adjust path as needed
+import { useLanguage } from "../context/LanguageContext";
 
-// Define the types for the translations
 type Translations = {
   title: string;
   description: string;
@@ -14,11 +13,9 @@ type Translations = {
 
 export type TranslationLang = "en" | "it" | "de";
 
-// The main component for accommodations
 const Accomodations: React.FC = () => {
-  const { language } = useLanguage(); // Get the current language from the context
+  const { language } = useLanguage();
 
-  // Sample hotel data (could be replaced with dynamic translation in a real app)
   const hotelData: Hotel[] = [
     {
       name: "LAGO Hotel & Restaurant am See",
@@ -65,38 +62,35 @@ const Accomodations: React.FC = () => {
     },
   ];
 
-  // Translations based on the language
   const translations: Record<TranslationLang, Translations> = {
     en: {
       title: "Hotels in Ulm",
-      description:
-        "Some more info here like: we recommend you to stay at one of these hotels",
-      codeInfo: 'Rooms can be retrieved through the code "Gerry&Tom"',
+      description: "We recommend staying at one of the hotels below.",
+      codeInfo: 'Rooms can be retrieved through the code "Gerry&Tom".',
       breakfastInfo:
-        "Please let the hotel know if you want to book including or excluding breakfast.",
-      bookingPeriod: "Rooms booked from 29 to 31 August 2025",
+        "Please let the hotel know if you want to book with or without breakfast.",
+      bookingPeriod: "Rooms are reserved from 29 to 31 August 2025.",
     },
     it: {
       title: "Hotel a Ulm",
       description:
-        "Altre informazioni qui come: ti consigliamo di soggiornare in uno di questi hotel",
-      codeInfo: 'Le stanze possono essere prenotate con il codice "Gerry&Tom"',
+        "Ti consigliamo di soggiornare in uno degli hotel qui sotto.",
+      codeInfo: 'Le stanze possono essere prenotate con il codice "Gerry&Tom".',
       breakfastInfo:
-        "Si prega di informare l'hotel se si desidera prenotare con o senza colazione.",
-      bookingPeriod: "Stanze prenotate dal 29 al 31 agosto 2025",
+        "Si prega di informare l'hotel se desideri la colazione inclusa o esclusa.",
+      bookingPeriod: "Le stanze sono prenotate dal 29 al 31 agosto 2025.",
     },
     de: {
       title: "Hotels in Ulm",
       description:
-        "Weitere Infos hier wie: Wir empfehlen Ihnen, in einem dieser Hotels zu übernachten",
-      codeInfo: 'Zimmer können mit dem Code "Gerry&Tom" abgerufen werden',
+        "Wir empfehlen Ihnen, in einem der folgenden Hotels zu übernachten.",
+      codeInfo: 'Zimmer können mit dem Code "Gerry&Tom" reserviert werden.',
       breakfastInfo:
         "Bitte teilen Sie dem Hotel mit, ob Sie mit oder ohne Frühstück buchen möchten.",
-      bookingPeriod: "Zimmer gebucht vom 29. bis 31. August 2025",
+      bookingPeriod: "Zimmer sind vom 29. bis 31. August 2025 reserviert.",
     },
   };
 
-  // Get the current translation based on the selected language
   const currentLang =
     translations[language as TranslationLang] || translations.en;
 
@@ -107,9 +101,12 @@ const Accomodations: React.FC = () => {
       <p>{currentLang.codeInfo}</p>
       <p>{currentLang.breakfastInfo}</p>
       <p>{currentLang.bookingPeriod}</p>
-      {hotelData.map((hotel, index) => (
-        <HotelCard key={index} hotel={hotel} />
-      ))}
+
+      <div className="hotel-card-container">
+        {hotelData.map((hotel, index) => (
+          <HotelCard key={index} hotel={hotel} />
+        ))}
+      </div>
     </div>
   );
 };
