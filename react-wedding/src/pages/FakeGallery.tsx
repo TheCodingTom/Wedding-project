@@ -6,7 +6,7 @@ function FakeGallery() {
   return (
     <div className="fake-gallery-container mt-5">
       <h1 className="display-4 text-center mb-4">
-        I'm sorry, there are no pictures here
+        Let us know if you're coming!
       </h1>
       <div className="d-flex justify-content-center mb-4">
         <div
@@ -18,15 +18,19 @@ function FakeGallery() {
             height="100%"
             src={video}
             title="Embedded Video"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
         </div>
       </div>
-      <NavLink to={"/gallery"}>
-        <Button>Go to real gallery</Button>
-      </NavLink>
+      <a
+        href="https://forms.gle/FQ5UfQ7SD4qJuN18A"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-primary btn-lg"
+      >
+        Click here
+      </a>
     </div>
   );
 }

@@ -21,11 +21,9 @@ function NavBar() {
               <Nav.Link as={NavLink} to={"/"}>
                 Home
               </Nav.Link>
-              <Nav.Link as={NavLink} to={"/rsvp"}>
-                RSVP
-              </Nav.Link>
+
               <Nav.Link as={NavLink} to={"/fakegallery"}>
-                Gallery
+                Attendance
               </Nav.Link>
 
               <Nav.Link as={NavLink} to={"/arrival"}>
