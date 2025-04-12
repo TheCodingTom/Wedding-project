@@ -1,3 +1,7 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
 h1 {
   text-align: center;
 }
@@ -7,6 +11,7 @@ h1 {
 }
 
 /* navbar */
+/* Navbar styles */
 .bg-body-tertiary {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
@@ -16,15 +21,22 @@ h1 {
 }
 
 .navbar-brand {
-  color: white;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .nav-link {
-  color: white;
+  color: white !important;
+  text-decoration: none;
 }
 
-.nav-link :hover {
-  color: white;
+.nav-link:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: black !important;
 }
 
 .fake-gallery-container {

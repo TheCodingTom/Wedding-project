@@ -22,11 +22,16 @@ function Home() {
                 alt="image of tom and jerry hugging"
               />
               <p className={styles.mainP}>
-                Hi everyone! As you know, on August 30th, 2025 we'll be
-                celebrating our wedding in Geri's hometown, Ulm. We can't wait
-                to celebrate this day with you!
+                Woho es ist soweit! Tom & Gérry geben sich das Ja-Wort und haben
+                sich endlich lieb - und das im verflixten 7. Jahr! Diesen
+                besonderen Tag wollen wir mit euch verbringen und freuen uns auf
+                einen kunterbunten Mix aus Italianos, Schweizern, Schwaben und
+                den loco Berlinern! Vor 8 Jahren am Kotti in Berlin hätte Tom
+                sicherlich nicht gedacht, dass er eines Tages im Schwabenländle
+                in Ulm heiraten wird - life happens! Umso mehr freuen wir uns
+                heute auf ein wunderschönes Fest bei uns im Garten - ganz dem
+                Motto “Italy meets Schwaben”.
               </p>
-              <Countdown />
             </Col>
 
             <Col md={6}>
@@ -37,6 +42,7 @@ function Home() {
                   alt="picture of tom and geri at the beach"
                 />
               </div>
+              <Countdown />
             </Col>
           </Row>
         </Container>
