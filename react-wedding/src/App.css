@@ -6,10 +6,6 @@ h1 {
   text-align: center;
 }
 
-.timer {
-  font-family: "Pacifico", cursive;
-}
-
 /* navbar */
 /* Navbar styles */
 .bg-body-tertiary {
@@ -123,7 +119,6 @@ h1 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   padding: 10px;
   z-index: 1000;
-  font-family: sans-serif;
 }
 
 .dropdown-menu > div {

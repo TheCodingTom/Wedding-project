@@ -1,6 +1,5 @@
 /* General Styles */
 .hotel-info-page {
-  font-family: "Pacifico", cursive;
   padding: 20px;
   background: linear-gradient(135deg, #fff0f5, #e0f7fa);
 
@@ -13,7 +12,6 @@
 }
 
 .hotel-info-page h1 {
-  font-family: "Freckle Face", cursive;
   font-size: 3.5rem;
   color: #ff6b6b;
   margin-bottom: 10px;
@@ -21,7 +19,6 @@
 
 .hotel-info-page h4,
 .hotel-info-page p {
-  font-family: "Pacifico", cursive;
   font-size: 1.2rem;
   color: #444;
   margin-bottom: 10px;
@@ -57,14 +54,12 @@
 /* Text Section */
 .hotel-card-text {
   flex: 1;
-  font-family: "Pacifico", cursive;
 }
 
 .hotel-card-text h2 {
   color: #ff6b6b;
   font-size: 1.8rem;
   margin-bottom: 10px;
-  font-family: "Freckle Face", cursive;
 }
 
 .hotel-card-text p {

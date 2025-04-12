@@ -1,6 +1,4 @@
-import { Button } from "react-bootstrap";
 import video from "../images/WhatsApp Video 2025-03-09 at 20.10.24.mp4";
-import { NavLink } from "react-router-dom";
 
 function FakeGallery() {
   return (
