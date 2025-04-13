@@ -1,0 +1,112 @@
+.footer {
+  background: linear-gradient(135deg, #fff0f5, #e0f7fa);
+  padding: 2rem;
+  border-top: 2px solid #ffe0e0;
+  animation: fadeIn 1s ease-in;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center; /* This helps for short content on mobile */
+  min-height: 200px;
+}
+
+.loveSection {
+  text-align: center;
+}
+
+.text {
+  font-family: "DynaPuff", system-ui;
+  font-size: 28px;
+  color: #ff6b6b;
+  margin: 0;
+}
+
+.heart {
+  color: #ff6b6b;
+  animation: pulse 1.5s infinite;
+  display: inline-block;
+}
+
+.smallText {
+  font-size: 16px;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.infoSection {
+  background-color: #ffffffcc;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  text-align: left;
+}
+
+.infoTitle {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Animation */
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* Responsive layout switch */
+
+@media (min-width: 768px) {
+  .footerContent {
+    flex-direction: row;
+    align-items: center; /* 👈 vertical centering */
+    justify-content: space-around;
+  }
+
+  .loveSection {
+    max-width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 👈 this vertically centers the text */
+    height: 100%;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 22px;
+  }
+
+  .smallText {
+    font-size: 14px;
+  }
+
+  .infoTitle {
+    font-size: 18px;
+  }
+
+  .contactList {
+    font-size: 14px;
+  }
+}

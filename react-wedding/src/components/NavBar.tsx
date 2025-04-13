@@ -26,9 +26,6 @@ function NavBar() {
                 Attendance
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to={"/arrival"}>
-                Arrival
-              </Nav.Link>
               <Nav.Link as={NavLink} to={"/accomodation"}>
                 Accomodations
               </Nav.Link>
