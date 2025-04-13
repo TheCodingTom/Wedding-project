@@ -18,20 +18,6 @@ const Accomodations: React.FC = () => {
 
   const hotelData: Hotel[] = [
     {
-      name: "LAGO Hotel & Restaurant am See",
-      address: "Friedrichsau 50, 89073 Ulm/Donau",
-      website: "https://hotel.lago-ulm.de/de/",
-      distance: "800m / 10 mins walking",
-      bookedRooms: 10,
-      roomPrices: {
-        twoPersons: { room: 119, breakfast: 21 },
-        onePerson: { room: 109, breakfast: 21 },
-      },
-      roomBookingDeadline: "01st August 2025",
-      image:
-        "https://hotel.lago-ulm.de/wp-content/uploads/2018/11/galerie_49.jpg",
-    },
-    {
       name: "Motel One Ulm",
       address: "Münsterplatz 7, 89073 Ulm",
       website: "https://www.motel-one.com/de/hotels/ulm/hotel-ulm",
@@ -41,7 +27,7 @@ const Accomodations: React.FC = () => {
         twoPersons: { room: 119, breakfast: 17.9 },
         onePerson: { room: 119, breakfast: 17.9 },
       },
-      roomBookingDeadline: "01st August 2025",
+      roomBookingDeadline: "1st August 2025",
       image:
         "https://image.motel-one.com/fileadmin/dam/_processed_/8/e/csm_Ulm_Bar_6_e9f4113b48.jpg?w=1844&h=1536&format=webp&quality=80&fit=cover",
     },
@@ -56,9 +42,24 @@ const Accomodations: React.FC = () => {
         twoPersons: { room: 146, breakfast: 13 },
         onePerson: { room: 126, breakfast: 13 },
       },
-      roomBookingDeadline: "01st August 2025",
+      roomBookingDeadline: "1st August 2025",
       image:
         "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/03/30/1525/STRJU-P0007-Exterior.jpg/STRJU-P0007-Exterior.16x9.jpg?imwidth=2560",
+    },
+    {
+      name: "Leonardo Royal Hotel Ulm",
+      address: "Mörikestraße 17, 89077 Ulm",
+      website:
+        "https://www.leonardo-hotels.de/ulm/leonardo-royal-hotel-ulm?utm_source=gmb&utm_medium=link_site_gmb&utm_campaign=leonardo-royal-hotel-ulm",
+      distance: "2,6km / 35 mins walking",
+      bookedRooms: 20,
+      roomPrices: {
+        twoPersons: { room: 0, breakfast: 0 },
+        onePerson: { room: 0, breakfast: 0 },
+      },
+      roomBookingDeadline: "1st August 2025",
+      image:
+        "https://static.leonardo-hotels.com/image/MURC_LRHU_01_JUN17_4000x2600_95fd78022a7c85bd52a2d5ad475a4730_2048x1331_desktop_2.jpg",
     },
   ];
 

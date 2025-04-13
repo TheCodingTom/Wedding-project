@@ -72,6 +72,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .bottomContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

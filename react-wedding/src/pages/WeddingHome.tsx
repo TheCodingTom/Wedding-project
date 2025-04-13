@@ -1,10 +1,6 @@
-import React from "react";
-
-import "../styles/weddinghome.css"
-import hug from "../images/hug.png"
-import beach from "../images/beach.jpeg"
-
-
+import "../styles/weddinghome.css";
+import hug from "../images/hug.png";
+import beach from "../images/beach.jpeg";
 
 const WeddingHome = () => {
   return (
