@@ -12,16 +12,27 @@ function Footer() {
         </div>
 
         <div className={styles.infoSection}>
-          <h4 className={styles.infoTitle}>Contatti utili</h4>
+          <h4 className={styles.infoTitle}>Tom's witnesses</h4>
           <ul className={styles.contactList}>
             <li>
-              <strong>Tom:</strong> +49 123 456789
+              <strong>Anka:</strong> +49 17620202841
             </li>
             <li>
-              <strong>Gérry:</strong> +39 987 654321
+              <strong>Tabea:</strong> +49 17664966479
             </li>
             <li>
-              <strong>Email:</strong> tomandgerry@email.com
+              <strong>Tabea:</strong> +49 17664966479
+            </li>
+          </ul>
+        </div>
+        <div className={styles.infoSection}>
+          <h4 className={styles.infoTitle}>Geri's witnesses</h4>
+          <ul className={styles.contactList}>
+            <li>
+              <strong>Anka:</strong> +49 17620202841
+            </li>
+            <li>
+              <strong>Tabea:</strong> +49 17664966479
             </li>
           </ul>
         </div>

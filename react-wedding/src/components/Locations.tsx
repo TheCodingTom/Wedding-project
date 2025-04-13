@@ -11,8 +11,11 @@ function Locations() {
         <Col className={styles.standesamtInfo}>
           <h2 className={styles.sectionTitle}>Standesamt Ulm</h2>
           <p className={styles.sectionText}>
-            The ceremony will take place at the Standesamt in Ulm at 11:20. More
-            info here...
+            The ceremony will take place at the Standesamt in Ulm at 11:20. Due
+            to space limitations, only a small group can join us inside for the
+            civil ceremony. But don’t worry — it’ll be short and sweet, and
+            right after, we’ll all gather for a prosecco toast together, either
+            just outside or at a nearby bar.
           </p>
           <p className={styles.sectionText}>
             <strong>Address:</strong> Marktpl. 1, 89073 Ulm
@@ -33,9 +36,12 @@ function Locations() {
         <Col className={styles.gardenInfo}>
           <h2 className={styles.sectionTitle}>Garden Party</h2>
           <p className={styles.sectionText}>
-            Join us for a beautiful garden party after the ceremony! Enjoy the
-            open-air setting with great company, delicious food, and a relaxed
-            atmosphere.
+            After the ceremony, the celebration continues at Geri’s parents’
+            place, where we’ll enjoy good food, drinks, and music in their
+            beautiful garden. The amazing team from Anomal will treat us to
+            delicious Italian specialties and drinks. And to top it all off —
+            we’ll wrap up the evening with a proper party and live DJ set in the
+            garage!
           </p>
           <p className={styles.sectionText}>
             <strong>Address:</strong> Safranberg 12, 89075 Ulm

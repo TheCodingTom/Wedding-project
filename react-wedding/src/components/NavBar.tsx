@@ -1,7 +1,36 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router";
+import { useLanguage } from "../context/LanguageContext";
+import { TranslationLang } from "../pages/Accomodations";
+
+const homeTranslations: Record<
+  TranslationLang,
+  { home: string; attendance: string; accomodations: string; program: string }
+> = {
+  en: {
+    home: "HOME",
+    attendance: "ATTENDANCE",
+    accomodations: "ACCOMODATIONS",
+    program: "PROGRAM",
+  },
+  it: {
+    home: "HOME",
+    attendance: "PARTECIPAZIONE",
+    accomodations: "ALLOGGIO",
+    program: "PROGRAMMA",
+  },
+  de: {
+    home: "HOME",
+    attendance: "ATTENDANCE",
+    accomodations: "ACCOMODATIONS",
+    program: "PROGRAM",
+  },
+};
 
 function NavBar() {
+  const { language } = useLanguage();
+  const { home, attendance, accomodations, program } =
+    homeTranslations[language as TranslationLang] || homeTranslations.en;
   return (
     <>
       <Navbar
@@ -19,18 +48,18 @@ function NavBar() {
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link as={NavLink} to={"/"}>
-                Home
+                {home}
               </Nav.Link>
 
               <Nav.Link as={NavLink} to={"/attendance"}>
-                Attendance
+                {attendance}
               </Nav.Link>
 
               <Nav.Link as={NavLink} to={"/accomodation"}>
-                Accomodations
+                {accomodations}
               </Nav.Link>
               <Nav.Link as={NavLink} to={"/program"}>
-                Program
+                {program}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

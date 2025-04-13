@@ -37,7 +37,7 @@ h1 {
 .language-selector {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 10px;
   padding: 10px;
 }

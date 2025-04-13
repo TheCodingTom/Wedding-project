@@ -9,6 +9,7 @@ function Attendance() {
       style={{ paddingTop: "2rem", paddingBottom: "2rem" }}
     >
       <h1 className="attendance-title">Let us know if you're coming!</h1>
+      <p>Please give us an answer before the XX.XX.XXXX</p>
       <div className="attendance-video-container">
         <div className="attendance-video-frame">
           <iframe
