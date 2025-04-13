@@ -4,7 +4,10 @@ import { Button } from "react-bootstrap";
 
 function Attendance() {
   return (
-    <div className="attendance-container">
+    <div
+      className="attendance-container"
+      style={{ paddingTop: "2rem", paddingBottom: "2rem" }}
+    >
       <h1 className="attendance-title">Let us know if you're coming!</h1>
       <div className="attendance-video-container">
         <div className="attendance-video-frame">

@@ -13,9 +13,8 @@ export type Hotel = {
   name: string;
   address: string;
   website: string;
-  distance: string;
-  bookedRooms: number;
-  roomPrices?: RoomPrices;
-  roomBookingDeadline: string;
+  distance1: string;
+  distance2: string;
+
   image?: string;
 };

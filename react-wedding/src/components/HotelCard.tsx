@@ -1,52 +1,81 @@
 import React from "react";
-import "../styles/hotel.styles.css"; // Import the CSS file
-import { Hotel } from "../types/types"; // Import the type from the types.ts file
+import "../styles/hotel.styles.css";
+import { Hotel } from "../types/types";
 
-interface HotelCardProps {
+export interface HotelCardProps {
   hotel: Hotel;
+  index: number;
+  labels: {
+    address: string;
+    website: string;
+    distance1: string;
+    distance2: string;
+  };
 }
 
-const HotelCard: React.FC<HotelCardProps> = ({ hotel }) => {
+const HotelCard: React.FC<HotelCardProps> = ({ hotel, index, labels }) => {
+  const isReversed = index === 1;
+
   return (
-    <div className="hotel-card">
-      <div className="hotel-card-content">
-        <div className="hotel-card-text">
-          <h2>{hotel.name}</h2>
-          <p>
-            <strong>Address:</strong> {hotel.address}
-          </p>
-          <p>
-            <strong>Website:</strong>{" "}
-            <a href={hotel.website} target="_blank" rel="noopener noreferrer">
-              {hotel.website}
-            </a>
-          </p>
-          <p>
-            <strong>Distance to Graubners:</strong> {hotel.distance}
-          </p>
-          <p>
-            <strong>Booked rooms:</strong> {hotel.bookedRooms} double rooms
-          </p>
-          <div className="room-prices">
-            <p>
-              <strong>For 2 persons:</strong> {hotel.roomPrices.twoPersons.room} € +{" "}
-              {hotel.roomPrices.twoPersons.breakfast} € breakfast
-            </p>
-            <p>
-              <strong>For 1 person:</strong> {hotel.roomPrices.onePerson.room} € +{" "}
-              {hotel.roomPrices.onePerson.breakfast} € breakfast
-            </p>
-          </div>
-          <p>
-            <strong>Rooms can be retrieved until:</strong> {hotel.roomBookingDeadline}
-          </p>
+    <div className="hotel-card-container">
+      <div className={`hotel-card ${index === 1 ? "reverse-on-mobile" : ""}`}>
+        <div className="hotel-card-content">
+          {!isReversed && (
+            <div className="hotel-card-text">
+              <h2>{hotel.name}</h2>
+              <p>
+                <strong>{labels.address}:</strong> {hotel.address}
+              </p>
+              <p>
+                <strong>{labels.website}:</strong>{" "}
+                <a
+                  href={hotel.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {hotel.website}
+                </a>
+              </p>
+              <p>
+                <strong>{labels.distance1}:</strong> {hotel.distance1}
+              </p>
+              <p>
+                <strong>{labels.distance2}:</strong> {hotel.distance2}
+              </p>
+            </div>
+          )}
+
+          {hotel.image && (
+            <div className="hotel-card-image">
+              <img src={hotel.image} alt={hotel.name} />
+            </div>
+          )}
+
+          {isReversed && (
+            <div className="hotel-card-text">
+              <h2>{hotel.name}</h2>
+              <p>
+                <strong>{labels.address}:</strong> {hotel.address}
+              </p>
+              <p>
+                <strong>{labels.website}:</strong>{" "}
+                <a
+                  href={hotel.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {hotel.website}
+                </a>
+              </p>
+              <p>
+                <strong>{labels.distance1}:</strong> {hotel.distance1}
+              </p>
+              <p>
+                <strong>{labels.distance2}:</strong> {hotel.distance2}
+              </p>
+            </div>
+          )}
         </div>
-        {/* Add hotel image here */}
-        {hotel.image && (
-          <div className="hotel-card-image">
-            <img src={hotel.image} alt={hotel.name} />
-          </div>
-        )}
       </div>
     </div>
   );

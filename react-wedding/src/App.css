@@ -6,23 +6,15 @@ h1 {
   text-align: center;
 }
 
-/* navbar */
-/* Navbar styles */
 .bg-body-tertiary {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
-.custom-navbar {
-  background-color: #ffcece !important;
-}
-
 .navbar-brand {
-  color: white !important;
   text-decoration: none !important;
 }
 
 .nav-link {
-  color: white !important;
   text-decoration: none;
 }
 
@@ -32,7 +24,8 @@ h1 {
 }
 
 .nav-link.active {
-  color: black !important;
+  color: rgb(255, 132, 132) !important;
+  color: rgb(255, 132, 132) !important;
 }
 
 .fake-gallery-container {

@@ -6,12 +6,9 @@ function Footer() {
       <div className={styles.footerContent}>
         <div className={styles.loveSection}>
           <p className={styles.text}>
-            Con tanto amore, <span className={styles.heart}>♥</span> Tom & Gérry
+            With love, Tom & Gérry <span className={styles.heart}>♥</span>
           </p>
-          <p className={styles.smallText}>
-            © {new Date().getFullYear()} Il nostro matrimonio a Ulm – Italy
-            meets Schwaben 🇮🇹🇩🇪
-          </p>
+          <p className={styles.smallText}>© Thomas D'Astolto 2025</p>
         </div>
 
         <div className={styles.infoSection}>
