@@ -22,7 +22,7 @@ function NavBar() {
                 Home
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to={"/fakegallery"}>
+              <Nav.Link as={NavLink} to={"/attendance"}>
                 Attendance
               </Nav.Link>
 
