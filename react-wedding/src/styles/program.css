@@ -1,0 +1,33 @@
+h1 {
+  padding-top: 2rem;
+}
+
+.program-page {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.program-page img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* Mobile first approach */
+@media (max-width: 768px) {
+  .program-page {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .program-page img {
+    width: 80%;
+    margin-top: 1rem;
+  }
+}
