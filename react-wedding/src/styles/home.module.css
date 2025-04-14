@@ -8,14 +8,6 @@
   animation: fadeIn 1.2s ease-in;
 }
 
-.mainH1 {
-  font-family: "DynaPuff", system-ui;
-  font-weight: 400;
-  font-size: 70px;
-  color: #ff6b6b;
-  text-shadow: 2px 2px #fff5f5;
-}
-
 .mainP {
   font-size: 24px;
   color: #333;

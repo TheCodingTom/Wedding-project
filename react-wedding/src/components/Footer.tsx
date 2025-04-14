@@ -15,13 +15,13 @@ function Footer() {
           <h4 className={styles.infoTitle}>Tom's witnesses</h4>
           <ul className={styles.contactList}>
             <li>
-              <strong>Anka:</strong> +49 17620202841
+              <strong>Daniele:</strong> +49 17620202841
             </li>
             <li>
-              <strong>Tabea:</strong> +49 17664966479
+              <strong>Alen:</strong> +49 17664966479
             </li>
             <li>
-              <strong>Tabea:</strong> +49 17664966479
+              <strong>Francesco:</strong> +49 17664966479
             </li>
           </ul>
         </div>
