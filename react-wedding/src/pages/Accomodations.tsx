@@ -74,7 +74,7 @@ const Accomodations: React.FC = () => {
     en: {
       title: "Hotels in Ulm",
       description:
-        "If you’re planning to book a hotel in Ulm, we recommend checking out the options listed below. We’ve pre-reserved a block of 20 rooms at each hotel. If you’re interested, you can book your room using the code Gerry&Tom. Please also let the hotel know whether you’d like to include breakfast with your stay. The rooms are reserved for two nights, from August 29 to August 31, 2025.",
+        "If you’re planning to book a hotel in Ulm, we recommend checking out the options listed below. Our beloved Anka pre-reserved a block of 20 rooms at each hotel. If you’re interested, you can book your room contacting the hotel via mail or phone, mentioning the code “Gerry&Tom”. Please also let the hotel know whether you’d like to include breakfast with your stay. The rooms are reserved for two nights, from August 29 to August 31, 2025.",
       extra:
         "If you prefer not to stay in a hotel, feel free to check out Airbnb — there are some good apartments available at reasonable prices.",
       questions: "If you have any questions, let us know!",
@@ -82,7 +82,7 @@ const Accomodations: React.FC = () => {
     it: {
       title: "Hotel a Ulm",
       description:
-        "Se stai pensando di prenotare un hotel a Ulm, ti consigliamo di dare un’occhiata alle opzioni elencate qui sotto. Abbiamo pre-prenotato un blocco di 20 camere in ciascun hotel. Se sei interessato, puoi prenotare la tua stanza utilizzando il codice Gerry&Tom. Ti preghiamo inoltre di comunicare all’hotel se desideri includere la colazione nel tuo soggiorno. Le camere sono riservate per due notti, dal 29 al 31 agosto 2025.",
+        "Se hai intenzione di prenotare un hotel a Ulm, ti consigliamo di dare un’occhiata alle opzioni elencate qui sotto. La nostra cara Anka ha pre-riservato un blocco di 20 camere in ciascun hotel. Se sei interessato/a, puoi prenotare la tua stanza contattando direttamente l’hotel via mail o telefono, menzionando il codice “Gerry&Tom”. Ti chiediamo anche di far sapere all’hotel se desideri includere la colazione nel tuo soggiorno. Le camere sono riservate per due notti, dal 29 al 31 agosto 2025.",
       extra:
         "Se preferisci non alloggiare in hotel, dai un’occhiata ad Airbnb — ci sono ottimi appartamenti a prezzi ragionevoli.",
       questions: "Se hai domande, scrivici pure!",
@@ -90,7 +90,7 @@ const Accomodations: React.FC = () => {
     de: {
       title: "Hotels in Ulm",
       description:
-        "Wenn du planst, ein Hotel in Ulm zu buchen, empfehlen wir dir, einen Blick auf die unten aufgeführten Optionen zu werfen. Wir haben in jedem Hotel ein Kontingent von 20 Zimmern vorreserviert. Wenn du interessiert bist, kannst du dein Zimmer mit dem Code Gerry&Tom buchen. Bitte gib dem Hotel auch Bescheid, ob du mit oder ohne Frühstück buchen möchtest. Die Zimmer sind für zwei Nächte reserviert – vom 29. bis 31. August 2025.",
+        "Falls du planst, ein Hotel in Ulm zu buchen, empfehlen wir dir, die unten aufgeführten Optionen anzuschauen. Unsere liebe Anka hat vorab ein Kontingent von 20 Zimmern in jedem Hotel reserviert. Wenn du interessiert bist, kannst du dein Zimmer direkt beim Hotel per E-Mail oder Telefon buchen und dabei den Code „Gerry&Tom“ angeben. Bitte teile dem Hotel auch mit, ob du Frühstück zu deinem Aufenthalt dazubuchen möchtest. Die Zimmer sind für zwei Nächte reserviert – vom 29. bis 31. August 2025.",
       extra:
         "Wenn du lieber nicht in einem Hotel übernachten möchtest, schau doch mal bei Airbnb vorbei – dort findest du gute Apartments zu vernünftigen Preisen..",
       questions: "Wenn du Fragen hast, melde dich einfach bei uns!",
