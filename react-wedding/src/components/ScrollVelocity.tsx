@@ -9,7 +9,6 @@ import {
   useAnimationFrame,
 } from "framer-motion";
 
-
 type VelocityTextProps = {
   children: React.ReactNode;
   baseVelocity?: number;
@@ -86,7 +85,9 @@ export const ScrollVelocity: React.FC<ScrollVelocityProps> = ({
     scrollerStyle,
   }) => {
     const baseX = useMotionValue(0);
-    const scrollOptions = scrollContainerRef ? { container: scrollContainerRef } : {};
+    const scrollOptions = scrollContainerRef
+      ? { container: scrollContainerRef }
+      : {};
     const { scrollY } = useScroll(scrollOptions);
     const scrollVelocity = useVelocity(scrollY);
     const smoothVelocity = useSpring(scrollVelocity, {
@@ -115,7 +116,7 @@ export const ScrollVelocity: React.FC<ScrollVelocityProps> = ({
     });
 
     const directionFactor = useRef(1);
-    useAnimationFrame((t, delta) => {
+    useAnimationFrame((delta) => {
       let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
 
       if (velocityFactor.get() < 0) {
@@ -130,17 +131,20 @@ export const ScrollVelocity: React.FC<ScrollVelocityProps> = ({
 
     const spans = [];
     if (numCopies)
-    for (let i = 0; i < numCopies; i++) {
-      spans.push(
-        <span className={className} key={i} ref={i === 0 ? copyRef : null}>
-          {children}
-        </span>
-      );
-    }
+      for (let i = 0; i < numCopies; i++) {
+        spans.push(
+          <span className={className} key={i} ref={i === 0 ? copyRef : null}>
+            {children}
+          </span>
+        );
+      }
 
     return (
       <div className={parallaxClassName} style={parallaxStyle}>
-        <motion.div className={scrollerClassName} style={{ x, ...scrollerStyle }}>
+        <motion.div
+          className={scrollerClassName}
+          style={{ x, ...scrollerStyle }}
+        >
           {spans}
         </motion.div>
       </div>
