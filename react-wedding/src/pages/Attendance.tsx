@@ -40,14 +40,18 @@ function Attendance() {
       <p>{p}</p>
       <div className="attendance-video-container">
         <div className="attendance-video-frame">
-          <iframe
+          <video
             width="100%"
             height="100%"
-            src={video}
-            title="Embedded Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+            controls
+            autoPlay
+            muted
+            playsInline
+            style={{ maxWidth: "100%", borderRadius: "1rem" }}
+          >
+            <source src={video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <Button
