@@ -15,6 +15,8 @@ export type Hotel = {
   website: string;
   distance1: string;
   distance2: string;
+  price: string;
+  email: string;
 
   image?: string;
 };

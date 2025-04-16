@@ -18,18 +18,27 @@ const labelTranslations: Record<TranslationLang, HotelCardProps["labels"]> = {
     website: "Website",
     distance1: "Distance to Graubners",
     distance2: "Distance to Standesamt",
+    email: "Email",
+
+    price: "Price per night for a double room",
   },
   it: {
     address: "Indirizzo",
     website: "Sito web",
     distance1: "Distanza da casa di Geri",
     distance2: "Distanza dal Comune",
+    email: "Email",
+
+    price: "Prezzo per notte per una camera doppia",
   },
   de: {
     address: "Adresse",
     website: "Website",
     distance1: "Distance to Graubners",
     distance2: "Distance to Standesamt",
+    email: "Email",
+
+    price: "Preis pro Nacht für ein Doppelzimmer",
   },
 };
 
@@ -43,6 +52,8 @@ const Accomodations: React.FC = () => {
       website: "https://www.motel-one.com/de/hotels/ulm/hotel-ulm",
       distance1: "2km ",
       distance2: "400m ",
+      email: "ulm@motel-one.com",
+      price: "123,00€",
 
       image:
         "https://image.motel-one.com/fileadmin/dam/_processed_/8/e/csm_Ulm_Bar_6_e9f4113b48.jpg?w=1844&h=1536&format=webp&quality=80&fit=cover",
@@ -54,6 +65,8 @@ const Accomodations: React.FC = () => {
         "https://www.hyatt.com/me-and-all-hotels/en-US/strju-me-and-all-hotel-ulm",
       distance1: "2,5km",
       distance2: "750m ",
+      email: "STRJU.gs.reservations@hyatt.com",
+      price: "146,00€",
 
       image:
         "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/03/30/1525/STRJU-P0007-Exterior.jpg/STRJU-P0007-Exterior.16x9.jpg?imwidth=2560",
@@ -64,6 +77,8 @@ const Accomodations: React.FC = () => {
       website: "https://www.leonardo-hotels.de/ulm",
       distance1: "2,6km",
       distance2: "1,6km ",
+      email: "info.royalulm@leonardohotels.com",
+      price: "99,00€ (breakfast included)",
 
       image:
         "https://static.leonardo-hotels.com/image/MURC_LRHU_01_JUN17_4000x2600_95fd78022a7c85bd52a2d5ad475a4730_2048x1331_desktop_2.jpg",

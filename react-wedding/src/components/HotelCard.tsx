@@ -10,6 +10,8 @@ export interface HotelCardProps {
     website: string;
     distance1: string;
     distance2: string;
+    email: string;
+    price: string;
   };
 }
 
@@ -42,6 +44,13 @@ const HotelCard: React.FC<HotelCardProps> = ({ hotel, index, labels }) => {
               <p>
                 <strong>{labels.distance2}:</strong> {hotel.distance2}
               </p>
+              <p>
+                <strong>{labels.email}:</strong>{" "}
+                <a href={`mailto:${hotel.email}`}>{hotel.email}</a>
+              </p>
+              <p>
+                <strong>{labels.price}:</strong> {hotel.price}
+              </p>
             </div>
           )}
 
@@ -72,6 +81,13 @@ const HotelCard: React.FC<HotelCardProps> = ({ hotel, index, labels }) => {
               </p>
               <p>
                 <strong>{labels.distance2}:</strong> {hotel.distance2}
+              </p>
+              <p>
+                <strong>{labels.email}:</strong>{" "}
+                <a href={`mailto:${hotel.email}`}>{hotel.email}</a>
+              </p>
+              <p>
+                <strong>{labels.price}:</strong> {hotel.price}
               </p>
             </div>
           )}
