@@ -14,7 +14,7 @@ const locationsTranslations: Record<
     description1:
       "The ceremony will take place at the Standesamt in Ulm at 11:20. Due to space limitations, only a small group can join us inside for the civil ceremony. But don't worry - it will be short and sweet, and right after, we'll gather for a prosecco toast together, either just outside or at a nearby bar.",
     description2:
-      "After the ceremony, the celebration continues at Ger's parents' place, where we'll enjoy good food, drinks and music in their beautiful garden. The amazing team from Anomal will treat us to delicious Italian specialties and drinks. And to top it all off - we'll wrap up the evening with a proper party and live DJ set in the garage!",
+      "After the ceremony, the celebration continues at Geri's parents' place, where we'll enjoy good food, drinks and music in their beautiful garden. The amazing team from Anomal will treat us to delicious Italian specialties and drinks. And to top it all off - we'll wrap up the evening with a proper party and live DJ set in the garage!",
 
     address: "Address",
   },
@@ -32,7 +32,7 @@ const locationsTranslations: Record<
       "Die Zeremonie findet um 11:20 Uhr im Standesamt in Ulm statt. Aufgrund begrenzter Platzkapazitäten kann uns nur eine kleine Gruppe zur standesamtlichen Trauung begleiten. Aber keine Sorge – sie wird kurz und schön, und direkt danach stoßen wir gemeinsam mit einem Glas Prosecco an, entweder direkt vor dem Standesamt oder in einer nahegelegenen Bar.",
 
     description2:
-      "Nach der Zeremonie geht die Feier bei Gers Eltern weiter, wo wir in ihrem wunderschönen Garten gutes Essen, Getränke und Musik genießen. Das fantastische Team von Anomal wird uns mit köstlichen italienischen Spezialitäten und Drinks verwöhnen. Und zum krönenden Abschluss des Abends feiern wir eine richtige Party mit Live-DJ-Set in der Garage!",
+      "Nach der Zeremonie geht die Feier bei Geris Eltern weiter, wo wir in ihrem wunderschönen Garten gutes Essen, Getränke und Musik genießen. Das fantastische Team von Anomal wird uns mit köstlichen italienischen Spezialitäten und Drinks verwöhnen. Und zum krönenden Abschluss des Abends feiern wir eine richtige Party mit Live-DJ-Set in der Garage!",
 
     address: "Adresse",
   },

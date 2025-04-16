@@ -12,10 +12,15 @@ const homeTranslations: Record<TranslationLang, { description: string }> = {
     description: `Woho, the time has come! Tom & Gérry are finally tying the knot — and that in the fateful 7th year! We want to spend this special day with you and are looking forward to an amazing mix of Italians, Swiss, Swabians, and the crazy Berliners! Eight years ago at Kotti in Berlin, Tom surely wouldn’t have guessed that one day he’d be getting married in Ulm — but hey, life happens! We're looking forward to celebrating this beautiful day in our garden — true to the motto: “Italy meets Schwaben.”`,
   },
   it: {
-    description: `Ci siamo: Tom & Gérry si sposano! Siamo felicissimi di poter condividere questo giorno così importante con voi e di festeggiare insieme a un mix meraviglioso di italiani, tedeschi, svizzeri, berlinesi e pescaresi! Otto anni fa, Tom non avrebbe certo immaginato che un giorno si sarebbe sposato proprio a Ulm, nel cuore della Svevia. Ma si sa, la vita è piena di sorprese! Proprio per questo non vediamo l’ora di accogliervi nel nostro giardino e brindare tutti insieme, sotto il segno del nostro motto: “Italy meets Schwaben”.`,
+    description: `Ci siamo: Tom & Gérry si sposano! Siamo felicissimi di poter condividere questo giorno così importante con voi e di festeggiare insieme a un mix meraviglioso di italiani, tedeschi, svizzeri, berlinesi, pescaresi, e chi più ne ha più ne metta! Otto anni fa, Tom non avrebbe certo immaginato che un giorno si sarebbe sposato proprio a Ulm, nel bel mezzo della Germania. Ma si sa, la vita è piena di sorprese! Ed è proprio per questo che non vediamo l’ora di goderci una giornata memorabile tutti insieme, facendo quello che ci viene meglio: magnà e bev!`,
   },
   de: {
-    description: `Woho es ist soweit! Tom & Gérry geben sich das Ja-Wort und haben sich endlich lieb – und das im verflixten 7. Jahr! Diesen besonderen Tag wollen wir mit euch verbringen und freuen uns auf einen kunterbunten Mix aus Italianos, Schweizern, Schwaben und den loco Berlinern! Vor 8 Jahren am Kotti in Berlin hätte Tom sicherlich nicht gedacht, dass er eines Tages im Schwabenländle in Ulm heiraten wird – life happens! Umso mehr freuen wir uns heute auf ein wunderschönes Fest bei uns im Garten – ganz dem Motto “Italy meets Schwaben.”`,
+    description: `Woho, es ist so weit!
+Tom & Gérry geben sich das Ja-Wort – und das im verflixten 7. Jahr! ❤️
+Wer hätte das gedacht? Damals, vor 8 Jahren am Kotti in Berlin, konnte sich Tom wohl kaum vorstellen, dass er mal im Schwabenländle in Ulm heiraten würde – aber hey, life happens!
+Diesen besonderen Tag wollen wir mit euch feiern – mit einem kunterbunten Mix aus Italianos, Schweizern, Schwaben und den loco Berlinern!
+Wir freuen uns riesig auf ein unvergessliches Fest bei uns im Garten – ganz nach dem Motto:
+„Italy meets Schwaben“`,
   },
 };
 
