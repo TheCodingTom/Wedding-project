@@ -12,7 +12,7 @@ const homeTranslations: Record<
   { p1: string; p2: string; p3: string; p4: string; motto: string }
 > = {
   en: {
-    p1: `Woho, the time has come! Tom & Gérry are finally tying the knot — and that in the fateful 7th year! `,
+    p1: `Woho, the time has come! Tom & Gérry are finally tying the knot — and that in the fateful 7th year! ❤️ `,
     p2: `Eight years ago at Kotti in Berlin, Tom surely wouldn’t have guessed that one day he’d be getting married in Ulm — but hey, life happens! `,
     p3: `We want to spend this special day with you and are looking forward to an amazing mix of Italians, Swiss, Swabians, and the crazy Berliners! `,
     p4: ` We're looking forward to celebrating this beautiful day in our garden — true to the motto:`,

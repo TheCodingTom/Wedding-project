@@ -77,7 +77,7 @@ const Accomodations: React.FC = () => {
       website: "https://www.leonardo-hotels.de/ulm",
       distance1: "2,6km",
       distance2: "1,6km ",
-      email: "info.royalulm@leonardohotels.com",
+      email: "res.ulm@leonardo-hotels.com",
       price: "99,00€ (breakfast included)",
 
       image:
