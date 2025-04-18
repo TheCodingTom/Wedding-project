@@ -77,6 +77,11 @@ function FAQ() {
       </div>
 
       <div className={styles.faqItem}>
+        <h3 className={styles.question}>{witnessQ}</h3>
+        <p className={styles.answer}>{witnessA}</p>
+      </div>
+
+      <div className={styles.faqItem}>
         <h3 className={styles.question}>{UlmQ}</h3>
         <p className={styles.answer}>{UlmA}</p>
       </div>
@@ -84,10 +89,6 @@ function FAQ() {
       <div className={styles.faqItem}>
         <h3 className={styles.question}>{giftsQ}</h3>
         <p className={styles.answer}>{giftsA}</p>
-      </div>
-      <div className={styles.faqItem}>
-        <h3 className={styles.question}>{witnessQ}</h3>
-        <p className={styles.answer}>{witnessA}</p>
       </div>
     </div>
   );
