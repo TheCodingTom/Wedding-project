@@ -26,7 +26,7 @@ const homeTranslations: Record<
     motto: `"Italy meets Schwaben"`,
   },
   de: {
-    p1: `Tom & Gérry geben sich das Ja-Wort – und das im verflixten 7. Jahr! ❤️ `,
+    p1: `Woho, es ist so weit! Tom & Gérry geben sich das Ja-Wort – und das im verflixten 7. Jahr! ❤️ `,
     p2: `Wer hätte das gedacht? Damals, vor 8 Jahren am Kotti in Berlin, konnte sich Tom wohl kaum vorstellen, dass er mal im Schwabenländle in Ulm heiraten würde – aber hey, life happens!`,
     p3: `Diesen besonderen Tag wollen wir mit euch feiern – mit einem kunterbunten Mix aus Italianos, Schweizern, Schwaben und den loco Berlinern!`,
     p4: `Wir freuen uns riesig auf ein unvergessliches Fest bei uns im Garten – ganz nach dem Motto:`,
