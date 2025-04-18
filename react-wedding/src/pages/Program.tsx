@@ -1,7 +1,9 @@
 import "../styles/program.css";
 import gif from "../images/giphy.gif";
+import gif2 from "../images/canva.jpg";
 import { TranslationLang } from "./Accomodations";
 import { useLanguage } from "../context/LanguageContext";
+import { useState } from "react";
 
 const programTranslation: Record<
   TranslationLang,
@@ -46,13 +48,29 @@ function Program() {
   const { language } = useLanguage();
   const { title, description, ending } =
     programTranslation[language as TranslationLang] || programTranslation.en;
+
+  const [toggled, setToggled] = useState(false);
+
+  const handleToggle = () => {
+    setToggled((prev) => !prev);
+  };
   return (
     <div className="program-section">
       <h1 className="program-title">Garden party</h1>
       <div className="program-container">
-        <div className="program-gif-wrapper">
-          <img className="program-gif" src={gif} alt="barney stinson gif" />
+        <div className="program-gif-wrapper" onClick={handleToggle}>
+          <img
+            className={`program-gif toggle-fade ${
+              toggled ? "fade-out" : "fade-in"
+            }`}
+            src={toggled ? gif2 : gif}
+            alt="toggle gif"
+          />
+          <p className="toggle-text">
+            {toggled ? "... to this" : "from this..."}
+          </p>
         </div>
+
         <div className="program-info">
           <div className="program-text-wrapper">
             <h4 className="program-subtitle">
