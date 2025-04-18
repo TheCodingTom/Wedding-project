@@ -61,6 +61,9 @@ function NavBar() {
               <Nav.Link as={NavLink} to={"/program"}>
                 {program}
               </Nav.Link>
+              <Nav.Link as={NavLink} to={"/faq"}>
+                FAQ
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -10,6 +10,7 @@ import Program from "./pages/Program";
 import { LanguageProvider, LanguageSelector } from "./context/LanguageContext";
 import Footer from "./components/Footer";
 import Attendance from "./pages/Attendance";
+import FAQ from "./pages/FAQ";
 
 const Root = () => {
   return (
@@ -35,6 +36,7 @@ function App() {
 
             <Route path="/accomodation" element={<Accomodations />} />
             <Route path="/program" element={<Program />} />
+            <Route path="/faq" element={<FAQ />} />
           </Route>
         </Routes>
       </BrowserRouter>

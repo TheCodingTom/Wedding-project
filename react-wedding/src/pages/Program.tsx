@@ -7,7 +7,14 @@ import { useEffect, useState } from "react";
 
 const programTranslation: Record<
   TranslationLang,
-  { title: string; p1: string; p2: string; p3: string; ending: string }
+  {
+    title: string;
+    p1: string;
+    p2: string;
+    p3: string;
+    ending: string;
+    tooltip: string;
+  }
 > = {
   en: {
     title: "La dolce (deutsche) vita! - in our garden!",
@@ -16,6 +23,7 @@ const programTranslation: Record<
     p2: `After the ceremony at the Standesamt and the first bubbles, from 1 PM we’ll head to our garden, which we’ll transform into a little Italian paradise – with everything that comes with it. Spritz, pasta e amore – what more could you ask for? We’re looking forward to a lively and joyful celebration where (almost) anything goes: from Italian music bangers, countless spritz, infamous photo booth fails, emotional moments, and wild dance moves, to a colorful mix of languages – Italian, German, English, and probably some Schwäbisch and Pescarese. The most important thing is that we get to celebrate with the people we love and cherish – and that’s you!`,
     p3: `For the party animals among us: when the garden starts to get sleepy, we’ll open the doors to a garage rave with our star DJs Stefan & Zen, Mani Pulite, Max aka Massimo, Lucas, and El Loco Abreu.`,
     ending: `We’re so excited to spend this day with all of you!`,
+    tooltip: "Click on the pic",
   },
   it: {
     title: "La dolce (deutsche) vita!",
@@ -25,6 +33,7 @@ const programTranslation: Record<
     p3: `E per chi si reggerà ancora in piedi, a fine giornata apriremo le porte del nostro garage per un party esclusivo con una line-up che farebbe invidia anche ai club di Berlino: Stefan & Zen, Mani Pulite, Max aka Massimo, Lucas ed El Loco Abreu!`,
 
     ending: `Non vediamo l’ora di vivere questa giornata insieme a voi!`,
+    tooltip: "Clicca sulla foto",
   },
   de: {
     title: "La dolce (deutsche) Vita! - bei uns im Garten!",
@@ -34,12 +43,13 @@ Hauptsache, wir dürfen mit den Menschen feiern, die wir lieben und schätzen �
     p3: ` Für die Feierwütigen unter uns: wenn der Garten langsam schläfrig wird, öffnen wir die Tore zum lauschigen Garagen-Rave mit unseren Star DJs Stefan & Zen, Mani pulite, Max aka Massimo, Lucas und El Loco Abreu. `,
     ending: `Wir freuen uns
               so sehr auf den Tag mit euch!`,
+    tooltip: "Klicke auf das Bild",
   },
 };
 
 function Program() {
   const { language } = useLanguage();
-  const { title, p1, p2, p3, ending } =
+  const { title, p1, p2, p3, ending, tooltip } =
     programTranslation[language as TranslationLang] || programTranslation.en;
 
   const [toggled, setToggled] = useState(false);
@@ -61,7 +71,7 @@ function Program() {
       <div className="program-container">
         <div className="program-gif-wrapper" onClick={handleToggle}>
           <div className="tooltip-wrapper">
-            {showTooltip && <div className="tooltip">Click on the picture</div>}
+            {showTooltip && <div className="tooltip">{tooltip}</div>}
             <img
               className={`program-gif toggle-fade ${
                 toggled ? "fade-out" : "fade-in"
