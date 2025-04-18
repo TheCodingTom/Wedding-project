@@ -25,6 +25,7 @@
 .program-gif-wrapper {
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   animation: fadeIn 1.3s ease-in;
@@ -92,6 +93,40 @@
   opacity: 0.9;
 }
 
+.tooltip-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+}
+
+.tooltip {
+  background-color: #222;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  animation: tooltipFade 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  position: relative;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-color: #222 transparent transparent transparent;
+}
+
 @media (max-width: 768px) {
   .program-container {
     flex-direction: column;
@@ -99,7 +134,7 @@
   }
 
   .program-gif {
-    height: 200px;
+    height: 300px;
   }
 
   .program-title {
@@ -122,6 +157,17 @@
   }
   to {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes tooltipFade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 0.9;
     transform: translateY(0);
   }
 }
