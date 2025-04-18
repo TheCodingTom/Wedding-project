@@ -41,7 +41,7 @@ const FAQTranslations: Record<
       "Se avete domande o qualsiasi altra cosa che non dovremmo sapere, potete contattare i nostri testimoni. I testimoni di Geri sono Anka e Tabea, mentre quelli di Tom sono Alen, Daniele e Francesco. Potete trovare i loro contatti nel piè di pagina del sito. ",
   },
   de: {
-    dresscodeQ: "Is there a dresscode?",
+    dresscodeQ: "Gibt es einen Dresscode?",
     dresscodeA:
       "Kommt einfach wie ihr euch am wohlsten fühlt – ob schick und classy, sommerlich-leger oder mit einem Hauch Romantik. Wir lieben die Vielfalt. ✨",
     UlmQ: "Was geht in Ulm?",
