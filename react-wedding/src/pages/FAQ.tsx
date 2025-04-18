@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/faq.module.css";
 
 function FAQ() {
