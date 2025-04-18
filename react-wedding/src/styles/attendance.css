@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+h1 {
+  padding: 0.6rem;
+}
+
 .attendance-video-container {
   display: flex;
   justify-content: center;
@@ -59,6 +63,17 @@ h3 {
   border-radius: 1rem;
   margin-top: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sneak-peek-toggle {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.sneak-peek-toggle:hover {
+  color: #0056b3;
 }
 
 @media (max-width: 600px) {

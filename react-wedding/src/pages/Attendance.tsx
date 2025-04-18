@@ -4,6 +4,7 @@ import { Button } from "react-bootstrap";
 import { TranslationLang } from "./Accomodations";
 import { useLanguage } from "../context/LanguageContext";
 import AIpic from "../images/tomandgerryAI.jpeg";
+import { useState } from "react";
 
 const attendanceTranslations: Record<
   TranslationLang,
@@ -14,21 +15,21 @@ const attendanceTranslations: Record<
     p: "Please give us an answer before the 20.05.2025.",
     button: "Click here",
     h3: "Can't make it? No worries!",
-    p2: "Here's a sneak peek of the wedding!",
+    p2: "Click here for a sneak peek of the wedding!",
   },
   it: {
     h1: "Facci sapere se ci sarai!",
     p: "Ti preghiamo di darci una risposta entro il 20.05.2025.",
     button: "Clicca qui",
     h3: "Non puoi venire? Nessun problema!",
-    p2: "Ecco un'anteprima del matrimonio",
+    p2: "Clicca qui per un'anteprima del matrimonio",
   },
   de: {
     h1: "Lass uns wissen, ob du kommst!",
     p: "Bitte gib uns bis zum 20.05.2025 Bescheid.",
     button: "Hier klicken",
     h3: "Du kannst nicht kommen? Kein Problem!",
-    p2: "Hier ist ein kleines Sneak-Peek!",
+    p2: "Klicke hier für ein kleines Sneak-Peek!",
   },
 };
 
@@ -37,6 +38,12 @@ function Attendance() {
   const { h1, p, button, h3, p2 } =
     attendanceTranslations[language as TranslationLang] ||
     attendanceTranslations.en;
+
+  const [showPreview, setShowPreview] = useState(false);
+
+  const handleTogglePreview = () => {
+    setShowPreview((prev) => !prev);
+  };
 
   return (
     <div
@@ -73,8 +80,10 @@ function Attendance() {
 
       <div className="attendance-preview">
         <h3>{h3}</h3>
-        <p>{p2}</p>
-        <img src={AIpic} alt="tomandgerryAIpicture" />
+        <p className="sneak-peek-toggle" onClick={handleTogglePreview}>
+          {p2}
+        </p>
+        {showPreview && <img src={AIpic} alt="tomandgerryAIpicture" />}
       </div>
     </div>
   );
