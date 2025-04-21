@@ -107,7 +107,7 @@ const Accomodations: React.FC = () => {
       description:
         "Falls du planst, ein Hotel in Ulm zu buchen, empfehlen wir dir, die unten aufgeführten Optionen anzuschauen. Unsere liebe Anka hat vorab ein Kontingent von 20 Zimmern in jedem Hotel reserviert. Wenn du interessiert bist, kannst du dein Zimmer direkt beim Hotel per E-Mail oder Telefon buchen und dabei den Code „Gerry&Tom“ angeben. Bitte teile dem Hotel auch mit, ob du Frühstück zu deinem Aufenthalt dazubuchen möchtest. Die Zimmer sind für zwei Nächte reserviert – vom 29. bis 31. August 2025.",
       extra:
-        "Wenn du lieber nicht in einem Hotel übernachten möchtest, schau doch mal bei Airbnb vorbei – dort findest du gute Apartments zu vernünftigen Preisen..",
+        "Wenn du lieber nicht in einem Hotel übernachten möchtest, schau doch mal bei Airbnb vorbei – dort findest du gute Apartments zu vernünftigen Preisen.",
       questions: "Wenn du Fragen hast, melde dich einfach bei uns!",
     },
   };
@@ -118,12 +118,17 @@ const Accomodations: React.FC = () => {
   return (
     <div
       className="hotel-info-page"
-      style={{ paddingTop: "4rem", paddingBottom: "4rem" }}
+      style={{
+        paddingTop: "4rem",
+        paddingBottom: "4rem",
+      }}
     >
       <h1>{currentLang.title}</h1>
-      <p>{currentLang.description}</p>
-      <p>{currentLang.extra}</p>
-      <p>{currentLang.questions}</p>
+      <div className="hotel-mainP">
+        <p>{currentLang.description}</p>
+        <p>{currentLang.extra}</p>
+        <p>{currentLang.questions}</p>
+      </div>
 
       <div className="hotel-card-container">
         {hotelData.map((hotel, index) => (

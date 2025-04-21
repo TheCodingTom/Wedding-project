@@ -51,7 +51,7 @@ const FAQTranslations: Record<
       "Dabeisein ist bekanntlich alles und eure Gesellschaft ist für uns das größte Geschenk! Falls ihr uns darüber hinaus noch eine Freude machen wollt, freuen wir uns riesig über einen kleinen Beitrag zu unserer Hochzeitsreise nach Japan -  so kann Geri endlich in Sushi und Ramen schwelgen und Tom ins Manga- und Anime-Paradies abtauchen. 🇯🇵 ",
     witnessQ: "Wer sind die Trauzeugen?",
     witnessA:
-      "Wenn ihr Fragen habt oder etwas anderes, das wir nicht wissen sollten, könnt ihr unsere Trauzeugen kontaktieren. Geris Trauzeugen sind Anka und Tabea, während Toms Trauzeugen Alen, Daniele und Francesco sind. Ihr könnt ihre Kontaktdaten im Fußbereich der Website finden.",
+      "Falls ihr Fragen habt oder sonstiges, das wir nicht wissen sollten, könnt Ihr unsere wundervollen Trauzeug:innen kontaktieren. Geri's Trauzeuginnen sind Anka & Tabea und Tom's Trauzeugen Alen, Daniele & Francesco. Die Kontaktdaten findet ihr unten im Fußbereich der Webseite.",
   },
 };
 

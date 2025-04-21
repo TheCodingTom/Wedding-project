@@ -20,7 +20,7 @@ const programTranslation: Record<
     title: "La dolce (deutsche) vita! - in our garden!",
     p1: `After the ceremony at the Standesamt and the first bubbles, from 1 PM we’ll head to our garden, which we’ll transform into a little Italian paradise – with everything that comes with it. Spritz, pasta e amore – what more could you ask for?
 .`,
-    p2: `After the ceremony at the Standesamt and the first bubbles, from 1 PM we’ll head to our garden, which we’ll transform into a little Italian paradise – with everything that comes with it. Spritz, pasta e amore – what more could you ask for? We’re looking forward to a lively and joyful celebration where (almost) anything goes: from Italian music bangers, countless spritz, infamous photo booth fails, emotional moments, and wild dance moves, to a colorful mix of languages – Italian, German, English, and probably some Schwäbisch and Pescarese. The most important thing is that we get to celebrate with the people we love and cherish – and that’s you!`,
+    p2: `We’re looking forward to a lively and joyful celebration where (almost) anything goes: from Italian music bangers, countless spritz, infamous photo booth fails, emotional moments, and wild dance moves, to a colorful mix of languages – Italian, German, English, and probably some Schwäbisch and Pescarese. The most important thing is that we get to celebrate with the people we love and cherish – and that’s you!`,
     p3: `For the party animals among us: when the garden starts to get sleepy, we’ll open the doors to a garage rave with our star DJs Stefan & Zen, Mani Pulite, Max aka Massimo, Lucas, and El Loco Abreu.`,
     ending: `We’re so excited to spend this day with all of you!`,
     tooltip: "Click on the pic",
