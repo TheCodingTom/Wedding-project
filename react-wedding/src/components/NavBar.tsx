@@ -9,7 +9,7 @@ const homeTranslations: Record<
 > = {
   en: {
     home: "HOME",
-    attendance: "ATTENDANCE",
+    attendance: "RSVP",
     accomodations: "ACCOMODATIONS",
     program: "PROGRAM",
   },
@@ -21,9 +21,9 @@ const homeTranslations: Record<
   },
   de: {
     home: "HOME",
-    attendance: "ATTENDANCE",
-    accomodations: "ACCOMODATIONS",
-    program: "PROGRAM",
+    attendance: "ANWESENHEIT",
+    accomodations: "UNTERKÜNFTE",
+    program: "PROGRAMM",
   },
 };
 
