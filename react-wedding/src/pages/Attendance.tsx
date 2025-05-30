@@ -22,7 +22,7 @@ const attendanceTranslations: Record<
     p: "Ti preghiamo di darci una risposta entro il 20.05.2025.",
     button: "Clicca qui",
     h3: "Non puoi venire? Nessun problema!",
-    p2: "Clicca qui per un'anteprima del matrimonio",
+    p2: "Clicca qui per un'anteprima del matrimonio!",
   },
   de: {
     h1: "Lass uns wissen, ob du kommst!",

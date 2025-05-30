@@ -23,7 +23,7 @@ const FAQTranslations: Record<
     UlmA: "More than you might think at first. If you’re motivated to explore Ulm before or after the celebration, there are some great bars and restaurants, or beautiful spots we highly recommend. The number one priority is of course climbing the tallest church tower in the world – that would be the perfect Sunday morning activity 😁 Just come to us, and we’ll give you the hottest tips in town.",
     giftsQ: "Do you have gift wishes?",
     giftsA:
-      "Being there with us is the greatest gift! If you’d like to make us even happier, we’d be thrilled with a small contribution to our honeymoon in Japan – so Geri can finally indulge in sushi and ramen, and Tom can dive into the manga and anime paradise. 🇯🇵",
+      "Being there with us is the greatest gift! If you’d like to make us even happier, we’d be thrilled with a small contribution to our honeymoon in Japan – so Geri can finally indulge in sushi and ramen, and Tom can dive into the manga and anime paradise. This is our shared IBAN: DE54 1001 1001 2754 0061 58. Thank you so much! ❤️ ",
     witnessQ: "Who are the witnesses?",
     witnessA:
       "If you have questions or anything else that we shouldn't know about, you can contact our witnesses. Geri's witnesses are Anka and Tabea, while Tom's are Alen, Daniele and Francesco. You can find their contacts in the website footer. ",
@@ -35,7 +35,7 @@ const FAQTranslations: Record<
     UlmA: "Molto più di quanto pensiate! Se vi va di esplorare la città prima o dopo la festa, possiamo consigliarvi alcuni bar e ristoranti tipici che potrebbero sorprendervi. La priorità è sicuramente salire sul duomo di Ulm, il più alto del mondo (un'ottima idea per riprendersi la domenica mattina) 😁 Se avete delle domande in generale, chiedete pure a noi!",
     giftsQ: "Avete desideri specifici per i regali?",
     giftsA:
-      "La vostra presenza è già il regalo principale! Se volete supportarci con qualcosa in più, saremo lieti di accettare un contributo per il nostro viaggio di nozze in Giappone – così Geri potrà finalmente riempirsi di sushi e ramen, e Tom potrà perdersi nel mondo dei manga e degli anime! 🇯🇵",
+      "La vostra presenza è già il regalo principale! Se volete supportarci con qualcosa in più, saremo lieti di accettare un contributo per il nostro viaggio di nozze in Giappone – così Geri potrà finalmente riempirsi di sushi e ramen, e Tom potrà perdersi nel mondo dei manga e degli anime! Questo è il nostro IBAN: DE54 1001 1001 2754 0061 58. Grazie di cuore! ❤️ ",
     witnessQ: "Chi sono i testimoni di nozze?",
     witnessA:
       "Se avete domande o qualsiasi altra cosa che non dovremmo sapere, potete contattare i nostri testimoni. I testimoni di Geri sono Anka e Tabea, mentre quelli di Tom sono Alen, Daniele e Francesco. Potete trovare i loro contatti nel piè di pagina del sito. ",
@@ -48,7 +48,7 @@ const FAQTranslations: Record<
     UlmA: "Mehr als man vielleicht erstmal denkt. Falls ihr vor oder nach der Feier noch motiviert seid, Ulm zu erkunden, gibt es einige gute Bars und Lokale oder schöne Ecken, die wir wärmstens empfehlen können. Priorität Nr. 1 ist natürlich der Aufstieg auf den höchsten Kirchturm der Welt - das könnt ihr euch ja für Sonntagmorgen vornehmen. 😁 Kommt einfach auf uns und wir geben euch die heißesten Tipps der Stadt.",
     giftsQ: "Habt ihr Geschenkwünsche?",
     giftsA:
-      "Dabeisein ist bekanntlich alles und eure Gesellschaft ist für uns das größte Geschenk! Falls ihr uns darüber hinaus noch eine Freude machen wollt, freuen wir uns riesig über einen kleinen Beitrag zu unserer Hochzeitsreise nach Japan -  so kann Geri endlich in Sushi und Ramen schwelgen und Tom ins Manga- und Anime-Paradies abtauchen. 🇯🇵 ",
+      "Dabeisein ist bekanntlich alles und eure Gesellschaft ist für uns das größte Geschenk! Falls ihr uns darüber hinaus noch eine Freude machen wollt, freuen wir uns riesig über einen kleinen Beitrag zu unserer Hochzeitsreise nach Japan -  so kann Geri endlich in Sushi und Ramen schwelgen und Tom ins Manga- und Anime-Paradies abtauchen. Das ist unsere gemeinsame IBAN: DE54 1001 1001 2754 0061 58. Vielen lieben Dank! ❤️ ",
     witnessQ: "Wer sind die Trauzeugen?",
     witnessA:
       "Falls ihr Fragen habt oder sonstiges, das wir nicht wissen sollten, könnt Ihr unsere wundervollen Trauzeug:innen kontaktieren. Geri's Trauzeuginnen sind Anka & Tabea und Tom's Trauzeugen Alen, Daniele & Francesco. Die Kontaktdaten findet ihr unten im Fußbereich der Webseite.",

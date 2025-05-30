@@ -66,9 +66,9 @@ h3 {
 }
 
 .sneak-peek-toggle {
-  color: #007bff;
+  color: black;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
